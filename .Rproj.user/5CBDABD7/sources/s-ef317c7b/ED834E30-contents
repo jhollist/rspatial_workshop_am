@@ -16,8 +16,13 @@ unzip(here("data/data.zip"), exdir = here("data"), overwrite = TRUE)
 dc_metro <- st_read(here("data/Metro_Lines.shp"))
 plot(st_geometry(dc_metro))
 dc_metro_sttn <- st_read(here("data/metrostations.geojson"))
-
+us_states <- st_read(here("data/tl_2015_us_state.shp"))
+summary(us_states)
 # Write a shapefile
 st_write(dc_metro,here("data/dc_metro_new.shp"))
 
+# Read in Raster data
+dc_elev <- raster(here("data/dc_ned.tif"))
+
+writeRaster(dc_elev,"dc_elev_example.tif", overwrite = T)
 

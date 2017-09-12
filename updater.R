@@ -1,4 +1,5 @@
 while(TRUE){
+  
   Sys.sleep(10)
   if(!dir.exists(here::here(".git"))){
     setwd(here::here())

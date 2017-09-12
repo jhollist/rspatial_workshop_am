@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3481354346",
     "id" : "ED834E30",
-    "lastKnownWriteTime" : 1505221707,
-    "last_content_update" : 1505221707182,
+    "lastKnownWriteTime" : 1505222679,
+    "last_content_update" : 1505222679676,
     "path" : "C:/data/rspatial_workshop_am/workshop_code.R",
     "project_path" : "workshop_code.R",
     "properties" : {
-        "cursorPosition" : "18,0",
+        "cursorPosition" : "27,0",
         "scrollLine" : "16",
         "tempName" : "Untitled1"
     },
